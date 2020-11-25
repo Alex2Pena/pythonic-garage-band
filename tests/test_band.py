@@ -8,6 +8,7 @@ from pythonic_garage_band.band import Band, Musician, Guitarist, Bassist, Drumme
 
 def test_band_name():
     nirvana = Band("Nirvana", [])
+
     assert nirvana.name == "Nirvana"
 
 def test_band_str():
